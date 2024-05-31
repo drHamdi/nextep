@@ -22,13 +22,12 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+      Vous faites les affaires, <br className="sm:block hidden" /> 
+      nous vous occuperons votre service digital
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+         Transformez votre vision en réalité avec notre service digital de pointe. Nous vous offrons des solutions sur mesure, une expertise inégalée et des résultats concrets. 
+                   Ensemble, bâtissons l'avenir numérique de votre entreprise.
       </p>
 
       <Button styles={`mt-10`} />
@@ -43,3 +42,4 @@ const Business = () =>  (
 );
 
 export default Business;
+

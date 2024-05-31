@@ -3,19 +3,19 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Acceuil",
   },
   {
     id: "features",
-    title: "Features",
+    title: "A Propos",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Service",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Contact",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Récompenses",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Notre service digital offre une visibilité accrue, une portée élargie et une croissance exponentielle. Révolutionnez votre entreprise avec des résultats mesurables et une expérience utilisateur optimale."
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Securiser",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Nous prenons des mesures proactives pour garantir la sécurité de vos informations et de vos transactions.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Service de Messagerie",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Notre service de messagerie assure une communication instantanée, une collaboration fluide et une réponse rapide. Simplifiez vos échanges et restez connectés avec vos clients en tout temps.",
   },
 ];
 
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "UTILISATEUR ACTIF",
+    value: "800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Approuvé par l'entreprise",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "NEXTEP a redéfini le paysage numérique",
+    value: "Depuis 2018", 
   },
 ];
 
