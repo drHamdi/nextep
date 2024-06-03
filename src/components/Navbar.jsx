@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
-import Nlogo from '../assets/8.png'
+import Nlogo from '../assets/people04.png'
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`#${nav.id}`}>{nav.title} </a>
           </li>
         ))}
       </ul>

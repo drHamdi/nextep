@@ -6,15 +6,15 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+      DropShipping<br className="sm:block hidden" />
+        
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      En Tunisie, le dropshipping permet aux entrepreneurs de vendre des produits sans stock. 
+      Les fournisseurs internationaux expédient directement aux clients tunisiens, offrant une opportunité de commerce en ligne avec un investissement initial minimal.
       </p>
 
-      <Button styles={`mt-10`} />
+      
     </div>
 
     <div className={layout.sectionImg}>

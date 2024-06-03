@@ -1,6 +1,10 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {people01 , people02, people03,  facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,  } from "../assets";
+import people04 from '../assets/people04.png'
+
+
 
 export const navLinks = [
+
   {
     id: "home",
     title: "Acceuil",
@@ -12,11 +16,14 @@ export const navLinks = [
   {
     id: "product",
     title: "Service",
+    
   },
+
   {
     id: "clients",
     title: "Contact",
   },
+ 
 ];
 
 export const features = [
@@ -47,26 +54,26 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "l'objectif est de maintenir l'intérêt et d'encourager l'interaction des utilisateurs. Cela inclut la gestion des réseaux sociaux, l'email marketing.",
+    name: "Engagement Visuelle",
+    title: "Publicité display et native",
+    img: people04 ,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "L'objectif ici est d'attirer des visiteurs sur les plateformes en ligne d'une entreprise, telles que le site web.",
+    name: "L'acquisition de trafic",
+    title: "Marketing de contenu",
+    img: people04,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Le but final est de convertir les visiteurs en clients payants et de les fidéliser. Les stratégies incluent les offres promotionnelles, les campagnes de remarketing.",
+    name: "fidélisation",
+    title: "collaborations ",
+    img: people04,
   },
 ];
 
@@ -195,3 +202,5 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+
