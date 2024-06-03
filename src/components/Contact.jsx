@@ -31,22 +31,24 @@ const Contact = ({ styles }) => {
   };
   return (
     <>  
-       <div id='clients'  class="bg-white dark:bg-gray-900">
+       <div id='clients'  class="dark:bg-gray dark:bg-gray-900">
       {!formSubmitted ? (
         <form ref={form} onSubmit={sendEmail} class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact</h2>
-          <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white dark:text-white">Contact</h2>
+          <p class="mb-8 lg:mb-16 font-light text-center text-white dark:text-gray-400 sm:text-xl">Vous avez un problème technique ? 
+          Vous souhaitez envoyer des commentaires sur une fonctionnalité bêta ?
+           Besoin de détails sur notre plan Business ? Faites le nous savoir.</p>
       <form action="#" class="space-y-8"></form>
           <div>
-          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nom</label>
+          <label for="email" class="block mb-2 text-sm font-medium text-white dark:text-gray-300">Nom</label>
             <input type="text" name="user_name" className="modern-input pilote shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
           </div>
           <div>
-          <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
+          <label for="subject" class="block mb-2 text-sm font-medium text-white dark:text-gray-300">Email</label>
             <input type="email" name="user_email" className="modern-input pilote shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
           </div>
           <div>
-          <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">message</label>
+          <label for="message" class="block mb-2 text-sm font-medium text-white dark:text-gray-400">message</label>
             <textarea name="message" className="modern-textarea pilote shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32"></textarea>
           </div>
           <div>

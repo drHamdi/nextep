@@ -1,11 +1,15 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients,    CTA, Footer, Navbar, Stats, Testimonials, Hero  } from "./components";
-import {BrowserRouter as Router, Routes , Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes , Route, BrowserRouter} from 'react-router-dom'
 import Dropship from "./components/Dropship";
 import Contact from "./components/Contact";
+import Sectionserv from "./Routes/Sectionserv";
 
 
 const App = () => (
+
+   
+
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
@@ -41,6 +45,11 @@ const App = () => (
     </div>
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
+       < CTA />
+      </div>
+    </div>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
        < CardDeal />
       </div>
     </div>
@@ -50,13 +59,7 @@ const App = () => (
        < Dropship />
       </div>
     </div>
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-       < CTA />
-      </div>
-      
-      
-    </div>
+    
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
        < Contact />
@@ -75,10 +78,14 @@ const App = () => (
       </div>
       
     </div>
-    
+
+     
+        
+     
     
      
   </div>
+  
 );
 
 export default App;

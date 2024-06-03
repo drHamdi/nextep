@@ -1,5 +1,6 @@
 import {people01 , people02, people03,  facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,  } from "../assets";
 import people04 from '../assets/people04.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -97,65 +98,65 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Liens utiles",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Contenu",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Comment ça fonctionne",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Créer",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Explorer",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Conditions et services",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Communauté",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Centre d'aide",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Les partenaires",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "bulletins d'information",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Les partenaires",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Notre partenaire",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Devenir un partenaire",
+        link: "https://www.facebook.com/profile.php?id=61559917217925",
       },
     ],
   },
@@ -170,7 +171,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/profile.php?id=61559917217925",
   },
   {
     id: "social-media-3",
@@ -193,10 +194,7 @@ export const clients = [
     id: "client-2",
     logo: binance,
   },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
+
   {
     id: "client-4",
     logo: dropbox,

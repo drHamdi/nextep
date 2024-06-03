@@ -1,5 +1,6 @@
 {
-  "name": "hoobank",
+  "name": "nextep",
+  "homepage" :"https://www.nextep.digital",
   "private": true,
   "version": "0.0.0",
   "type": "module",

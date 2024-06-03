@@ -31,7 +31,10 @@ const Hero = () => {
       </div>
       <img src={Heros} alt="billing" className="w-[80%] h-[60%] relative z-[5]" />
       <div className="ss:flex hidden mt-80 md:mr-4 mr-0">
-            < Commencer />
+        <a href="#features">
+        < Commencer />
+        </a>
+           
           </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         {/* gradient start */}
